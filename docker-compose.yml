@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  weather-bot:
+    build: .
+    container_name: weather-bot
+    restart: unless-stopped
+    mem_limit: 128m
+    memswap_limit: 256m
+    cpu_shares: 512
+    environment:
+      - TELEGRAM_BOT_TOKEN=7162260320:AAEkpBMf8xfEgGQHSXSkyqd0QTtcej7SrmQ
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
