@@ -248,14 +248,9 @@ This project is open source and available under the [MIT License](LICENSE).
 - Built with [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 - Containerized with [Docker](https://www.docker.com/)
 
-## 📞 Support
 
-If you encounter any issues:
-1. Check the [Troubleshooting](#-troubleshooting) section
-2. View [existing issues](https://github.com/nafnafnaf/peramos-weather-bot/issues)
-3. Create a [new issue](https://github.com/nafnafnaf/peramos-weather-bot/issues/new)
 
----
+--
 
 **Made with ❤️ for real-time weather monitoring**
 
